@@ -6,3 +6,6 @@ def run():
     prepare("this is a duplicate")  # Noncompliant - "this is a duplicate" is duplicated 3 times
     execute("this is a duplicate")
     release("this is a duplicate")
+    
+    
+    run()
